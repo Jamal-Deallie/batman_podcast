@@ -1,0 +1,49 @@
+@use '@/styles/abstracts/_index' as *;
+@use '@/styles/base/_media' as *;
+
+.card {
+  display: inline-block;
+
+  .card-wrap {
+    aspect-ratio: 16 / 9;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    border: solid 1px var(--tertiary-variant);
+    background: var(--secondary-variant);
+    height: mobile-vw(100px);
+    margin: mobile-vw(24px);
+
+    .logo {
+      position: relative;
+      width: auto;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-shrink: 0;
+      padding: mobile-vw(16px);
+      height: mobile-vw(25px);
+      img {
+        object-fit: contain;
+        width: auto;
+        height: 100%;
+        filter: invert(1) drop-shadow(0 0 0.3rem #ffffff70);
+      }
+    }
+  }
+
+  @include desktop {
+    .card-wrap {
+      height: desktop-vw(170px);
+      margin: desktop-vw(24px);
+
+      .logo {
+        flex-shrink: 0;
+        padding: desktop-vw(16px);
+        height: desktop-vw(45px);
+      }
+    }
+  }
+}

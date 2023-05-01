@@ -1,0 +1,44 @@
+@use '@/styles/abstracts/_index' as *;
+@use '@/styles/base/_media' as *;
+
+.host {
+  aside {
+    grid-column: 1 / -1;
+    .img {
+      position: relative;
+      aspect-ratio: 1;
+      width: 100%;
+      height: auto;
+
+      img {
+        object-fit: cover;
+        object-position: 0px 25%;
+      }
+    }
+  }
+
+  .desc-cont {
+    grid-column: 1 / -1;
+    p:nth-of-type(3) {
+      margin-top: mobile-vw(8px);
+    }
+  }
+
+  @include desktop {
+    aside {
+      grid-column: 2 / 7;
+    }
+
+    .desc-cont {
+      grid-column: 8 / 12;
+      p:nth-of-type(3) {
+        margin-top: desktop-vw(16px);
+      }
+    }
+  }
+}
+
+.audio {
+  width: 200px;
+  height: 200px;
+}

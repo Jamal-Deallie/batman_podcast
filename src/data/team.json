@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "name": "Barbara Gordon",
+    "title": "Host",
+    "src": "https://res.cloudinary.com/dtwk4dm3g/image/upload/v1682904942/batman_podcast/barbara_gordon_ktlabs.webp"
+  },
+  {
+    "id": 2,
+    "name": "Dick Grayson",
+    "title": "Producer",
+    "src": "https://res.cloudinary.com/dtwk4dm3g/image/upload/v1682904943/batman_podcast/richard_grayson_gp9xb2.webp"
+  },
+  {
+    "id": 3,
+    "name": "Lucas Fox",
+    "title": "Sound Engineer",
+    "src": "https://res.cloudinary.com/dtwk4dm3g/image/upload/v1682904943/batman_podcast/lucas_fox_s5emil.webp"
+  }
+]

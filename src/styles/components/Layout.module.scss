@@ -1,0 +1,14 @@
+@use '@/styles/abstracts/_index' as *;
+@use '@/styles/base/_media' as *;
+
+.layout {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+
+  .main-wrap {
+    // padding-top: 100px;
+    flex-grow: 1;
+    min-height: calc(100vh - 100px);
+  }
+}

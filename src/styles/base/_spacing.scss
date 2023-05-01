@@ -1,0 +1,168 @@
+$spacing-stops: (
+  '1': 8px,
+  '2': 16px,
+  '3': 24px,
+  '4': 32px,
+  '5': 40px,
+  '6': 48px,
+  '7': 64px,
+  '8': 72px,
+  '9': 88px,
+  '10': 96px,
+  '11': 120px,
+  '12': 128px,
+  '13': 180px,
+  '14': 188px,
+);
+
+.mb-10 {
+  margin-bottom: mobile-vw(48px);
+
+  @include desktop {
+    margin-bottom: desktop-vw(96px);
+  }
+}
+
+.mt-10 {
+  margin-top: mobile-vw(64px);
+
+  @include desktop {
+    margin-top: desktop-vw(96px);
+  }
+}
+
+.mt-11 {
+  margin-top: mobile-vw(96px);
+
+  @include desktop {
+    margin-top: desktop-vw(128px);
+  }
+}
+
+.mb-11 {
+  margin-bottom: mobile-vw(96px);
+
+  @include desktop {
+    margin-bottom: desktop-vw(128px);
+  }
+}
+
+.mb-6 {
+  margin-bottom: mobile-vw(24px);
+
+  @include desktop {
+    margin-bottom: desktop-vw(48px);
+  }
+}
+
+.mt-6 {
+  margin-top: mobile-vw(24px);
+
+  @include desktop {
+    margin-top: desktop-vw(48px);
+  }
+}
+
+.mb-3 {
+  margin-bottom: mobile-vw(16px);
+
+  @include desktop {
+    margin-bottom: desktop-vw(24px);
+  }
+}
+
+.mt-3 {
+  margin-top: mobile-vw(16px);
+
+  @include desktop {
+    margin-top: desktop-vw(24px);
+  }
+}
+
+.mt-2 {
+  margin-top: mobile-vw(8px);
+
+  @include desktop {
+    margin-top: desktop-vw(16px);
+  }
+}
+
+.mb-2 {
+  margin-bottom: mobile-vw(8px);
+
+  @include desktop {
+    margin-bottom: desktop-vw(16px);
+  }
+}
+
+.mt-1 {
+  margin-top: mobile-vw(8px);
+
+  @include desktop {
+    margin-top: desktop-vw(8px);
+  }
+}
+
+.pt-7 {
+  padding-top: mobile-vw(32px);
+
+  @include desktop {
+    padding-top: desktop-vw(64px);
+  }
+}
+
+.pt-7 {
+  padding-top: mobile-vw(32px);
+
+  @include desktop {
+    padding-top: desktop-vw(64px);
+  }
+}
+.pb-7 {
+  padding-bottom: mobile-vw(32px);
+
+  @include desktop {
+    padding-bottom: desktop-vw(64px);
+  }
+}
+
+.ptb-11 {
+  padding: mobile-vw(96px) 0;
+
+  @include desktop {
+    padding: desktop-vw(128px) 0 desktop-vw(96px);
+  }
+}
+
+.ptb-7 {
+  writing-mode: horizontal-tb;
+  padding-block: mobile-vw(32px);
+
+  @include desktop {
+    padding-block: desktop-vw(64px);
+  }
+}
+
+.cont-mart {
+  margin-top: mobile-vw(48px);
+
+  @include desktop {
+    margin-top: desktop-vw(128px);
+  }
+}
+
+.cont-mtb {
+  writing-mode: horizontal-tb;
+  margin-block: mobile-vw(96px);
+
+  @include desktop {
+    padding-block: desktop-vw(128px);
+  }
+}
+.gc-1 {
+  grid-column: 1 / -1;
+}
+
+.ta-c {
+  text-align: center;
+}

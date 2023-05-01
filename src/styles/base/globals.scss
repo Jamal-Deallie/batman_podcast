@@ -1,0 +1,142 @@
+@import './_reset.scss';
+@import './_fonts.scss';
+@import './_media.scss';
+@import './_colors.scss';
+@import './_functions.scss';
+@import './_utilities.scss';
+@import './_font-style.scss';
+@import '../abstracts/index';
+@import './_layouts.scss';
+@import './_spacing.scss';
+
+body {
+  min-height: 100vh;
+  color: var(--secondary-variant);
+  background-color: var(--primary-variant);
+  font-family: var(--body-font);
+}
+
+/* For images to not be able to exceed their container */
+img {
+  max-width: 100%;
+}
+
+.blaze-slider.my-slider {
+  --slides-to-show: 3;
+  --slide-gap: 20px;
+}
+
+@media (max-width: 900px) {
+  .blaze-slider.my-slider {
+    --slides-to-show: 2;
+  }
+}
+
+@media (max-width: 500px) {
+  .blaze-slider.my-slider {
+    --slides-to-show: 1;
+  }
+}
+/* other styles */
+
+.blaze-slider.dragging .blaze-track {
+  cursor: grabbing;
+}
+
+.blaze-track {
+  gap: 0px;
+}
+
+.blaze-track > * {
+  min-height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  transition: width 300ms ease;
+}
+
+/* pagination buttons */
+
+.blaze-pagination {
+  display: flex;
+  gap: 15px;
+}
+
+.blaze-pagination button {
+  font-size: 0;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  outline: none;
+  border: none;
+  background: hsl(0deg, 0%, 15%);
+  cursor: pointer;
+  transition: transform 200ms ease, background-color 300ms ease;
+}
+
+.blaze-pagination button.active {
+  background: white;
+  transform: scale(1.3);
+}
+
+.blaze-next,
+.blaze-prev {
+  border: none;
+  font-size: 0;
+  width: 60px;
+  height: 30px;
+  border: solid 1.75px var(--tertiary-variant);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 25px;
+  transition: all 0.025s ease-in;
+  &:hover {
+    background-image: var(--secondary-variant);
+  }
+  @include desktop {
+    width: 70px;
+    height: 34px;
+
+    svg {
+      width: desktop-vw(30px);
+    }
+  }
+}
+
+.blaze-prev {
+}
+
+/* for loop: false */
+.blaze-slider.start .blaze-prev,
+.blaze-slider.end .blaze-next {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.controls {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-top: 50px;
+  gap: 20px;
+
+  @include desktop {
+    margin-top: desktop-vw(40px);
+  }
+}
+
+:root {
+  --nav-height: #{mobile-vw(65px)};
+  --bg-gradient: linear-gradient(
+    to right,
+    var(--secondary-variant),
+    rgb(22, 25, 29)
+  );
+  --primary-gradient: linear-gradient(to right, #0f0c29, #302b63, #24243e);
+  @include desktop {
+    --nav-height: #{desktop-vw(90px)};
+  }
+}

@@ -1,0 +1,12 @@
+@use '@/styles/abstracts/_index' as *;
+@use '@/styles/base/_media' as *;
+
+.footer {
+  min-height: mobile-vh(150px);
+  width: 100%;
+  background: #000;
+
+  @include desktop {
+    min-height: desktop-vh(300px);
+  }
+}

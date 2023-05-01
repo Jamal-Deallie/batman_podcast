@@ -1,0 +1,42 @@
+@use '@/styles/abstracts/_index' as *;
+@use '@/styles/base/_media' as *;
+.mouse-down {
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+}
+.down {
+  width: 0;
+  height: 40px;
+  border: 1px solid var(--tertiary-variant);
+  position: relative;
+  animation: scale 4s infinite;
+  transform-origin: 50% 0;
+  transform: scale(0);
+
+  @keyframes scale {
+    50% {
+      transform: scaleY(1.5);
+    }
+  }
+}
+
+.text {
+  opacity: 0;
+  animation: opacity 4s infinite;
+
+  @keyframes opacity {
+    50% {
+      opacity: 1;
+    }
+  }
+
+  p {
+    color: var(--tertiary-variant);
+    text-transform: capitalize;
+    font-weight: 600;
+  }
+}

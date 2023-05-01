@@ -1,0 +1,22 @@
+@use './variables' as *;
+
+@mixin outline-font($fill, $width) {
+  -webkit-text-stroke-width: $width;
+  -webkit-text-fill-color: $fill;
+
+  @content;
+}
+
+@mixin grid-cols($col) {
+  display: grid;
+  grid-template-columns: repeat($col, minmax(0, 1fr));
+  @content;
+}
+
+@mixin ellipsis($lines) {
+  display: -webkit-box;
+  -webkit-line-clamp: $lines;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}

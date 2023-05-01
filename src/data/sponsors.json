@@ -1,0 +1,86 @@
+[
+  {
+    "id": 1,
+    "company": "sony",
+    "src": "https://res.cloudinary.com/dtwk4dm3g/image/upload/v1682904998/batman_podcast/sony_hl9t3g.svg",
+    "width": 780,
+    "height": 137
+  },
+  {
+    "id": 2,
+    "company": "wayfair",
+    "src": "https://res.cloudinary.com/dtwk4dm3g/image/upload/v1682904999/batman_podcast/wayfair_ralgev.svg",
+    "width": 752,
+    "height": 177
+  },
+  {
+    "id": 3,
+    "company": "rei",
+    "src": "https://res.cloudinary.com/dtwk4dm3g/image/upload/v1682904998/batman_podcast/rei_epllti.svg",
+    "width": 784,
+    "height": 372
+  },
+  {
+    "id": 4,
+    "company": "rakuten",
+    "src": "https://res.cloudinary.com/dtwk4dm3g/image/upload/v1682904998/batman_podcast/rakuten_vzbvxd.svg",
+    "width": 166,
+    "height": 49
+  },
+  {
+    "id": 5,
+    "company": "grubhub",
+    "src": "https://res.cloudinary.com/dtwk4dm3g/image/upload/v1682904998/batman_podcast/grubhub_qktnof.svg",
+    "width": 832,
+    "height": 241
+  },
+  {
+    "id": 6,
+    "company": "getaround",
+    "src": "https://res.cloudinary.com/dtwk4dm3g/image/upload/v1682904998/batman_podcast/getaround_mwczdp.svg",
+    "width": 110,
+    "height": 25
+  },
+  {
+    "id": 7,
+    "company": "fanatics",
+    "src": "https://res.cloudinary.com/dtwk4dm3g/image/upload/v1682904998/batman_podcast/fanatics_bgfigw.svg",
+    "width": 1151,
+    "height": 764
+  },
+  {
+    "id": 8,
+    "company": "citi",
+    "src": "https://res.cloudinary.com/dtwk4dm3g/image/upload/v1682904997/batman_podcast/citi_tqkv8k.svg",
+    "width": 1009,
+    "height": 651
+  },
+  {
+    "id": 9,
+    "company": "dish",
+    "src": "https://res.cloudinary.com/dtwk4dm3g/image/upload/v1682904997/batman_podcast/dish_qbibh4.svg",
+    "width": 719,
+    "height": 260
+  },
+  {
+    "id": 10,
+    "company": "amex",
+    "src": "https://res.cloudinary.com/dtwk4dm3g/image/upload/v1682904997/batman_podcast/americanexpress_bfmai4.svg",
+    "width": 24,
+    "height": 24
+  },
+  {
+    "id": 11,
+    "company": "amazon",
+    "src": "https://res.cloudinary.com/dtwk4dm3g/image/upload/v1682904997/batman_podcast/amazon_g3f0yy.svg",
+    "width": 24,
+    "height": 24
+  },
+  {
+    "id": 12,
+    "company": "dell",
+    "src": "https://res.cloudinary.com/dtwk4dm3g/image/upload/v1682904997/batman_podcast/dell_n3evxb.svg",
+    "width": 88,
+    "height": 28
+  }
+]

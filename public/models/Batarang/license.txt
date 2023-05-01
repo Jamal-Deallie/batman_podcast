@@ -1,0 +1,11 @@
+Model Information:
+* title:	Batman The Dark Knight Batarang
+* source:	https://sketchfab.com/3d-models/batman-the-dark-knight-batarang-2e6dd1210c054b65aa12ff4e969c4f26
+* author:	ABSoln (https://sketchfab.com/ABSoln)
+
+Model License:
+* license type:	CC-BY-NC-4.0 (http://creativecommons.org/licenses/by-nc/4.0/)
+* requirements:	Author must be credited. No commercial use.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Batman The Dark Knight Batarang" (https://sketchfab.com/3d-models/batman-the-dark-knight-batarang-2e6dd1210c054b65aa12ff4e969c4f26) by ABSoln (https://sketchfab.com/ABSoln) licensed under CC-BY-NC-4.0 (http://creativecommons.org/licenses/by-nc/4.0/)

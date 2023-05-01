@@ -1,0 +1,54 @@
+@use '@/styles/abstracts/_index' as *;
+@use '@/styles/base/_media' as *;
+
+.container {
+  width: 100%;
+  height: var(--nav-height);
+  position: fixed;
+  z-index: 10;
+  border-bottom: 1px solid var(--tertiary-variant);
+}
+
+.wrap {
+  max-width: var(--layout-width);
+  margin-inline: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: var(--nav-height);
+}
+
+.links {
+  visibility: hidden;
+
+  @include desktop {
+    visibility: visible;
+    display: flex;
+    gap: desktop-vw(40px);
+  }
+}
+
+.logo {
+  position: relative;
+  aspect-ratio: 800 / 300;
+  height: calc(var(--nav-height) - mobile-vw(24px));
+  width: auto;
+  img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+  }
+
+  @include desktop {
+    height: calc(var(--nav-height) - desktop-vw(48px));
+  }
+}
+
+.menu {
+  display: block;
+
+  @include desktop {
+    display: none;
+  }
+}

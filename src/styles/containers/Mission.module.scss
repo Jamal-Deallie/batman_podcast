@@ -1,0 +1,31 @@
+@use '@/styles/abstracts/_index' as *;
+@use '@/styles/base/_media' as *;
+
+.title-cont {
+  grid-column: 1 / -1;
+  text-align: left;
+}
+.content {
+  grid-column: 1 / -1;
+
+  @include desktop {
+    grid-column: 1 / 6;
+  }
+}
+
+.img-wrap {
+  position: relative;
+  grid-column: 1 / -1;
+  .img {
+    position: relative;
+    aspect-ratio: 1;
+
+    img {
+      object-fit: cover;
+    }
+  }
+
+  @include desktop {
+    grid-column: 7 / -1;
+  }
+}

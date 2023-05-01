@@ -1,0 +1,14 @@
+@use '@/styles/abstracts/_index' as *;
+@use '@/styles/base/_media' as *;
+
+.title-cont {
+  grid-column: 1/ -1;
+}
+
+.desc-cont {
+  grid-column: 1/ -1;
+
+  @include desktop {
+    max-width: desktop-vw(550px);
+  }
+}

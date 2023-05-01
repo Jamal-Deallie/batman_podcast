@@ -1,0 +1,81 @@
+@use '@/styles/abstracts/_index' as *;
+@use '@/styles/base/_media' as *;
+
+.base {
+  grid-column: 10/-1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0 2px 4px 0;
+  box-sizing: border-box;
+  cursor: pointer;
+  font-weight: 400;
+  outline: none;
+  outline: 0;
+  text-align: center;
+  transform: translateY(0);
+  transition: transform 150ms, box-shadow 150ms;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  border: 1px solid;
+  min-width: 100%;
+  line-height: 200%;
+  &:hover {
+    box-shadow: rgba(0, 0, 0, 0.15) 0 3px 9px 0;
+    transform: translateY(-2px);
+  }
+}
+
+.sm {
+  padding-inline: 1.6rem;
+  height: 32px;
+  font-size: 16px;
+}
+
+.md {
+  height: 48px;
+  font-size: mobile-vw(15px);
+  padding-inline: mobile-vw(12px);
+
+  @include desktop {
+    padding-inline: desktop-vw(12px);
+    font-size: desktop-vw(19px);
+  }
+}
+
+.lrg {
+  padding-inline: 32px;
+  height: 52px;
+  font-size: 16px;
+}
+
+.full {
+  padding: 16px 32px;
+  height: 52px;
+  font-size: 16px;
+}
+
+.font-heading {
+  font-family: var(--heading-font);
+}
+
+.font-body {
+  font-family: var(--heading-font);
+}
+
+@each $name, $font in $fonts {
+  .font-#{$name} {
+    font-family: $font, sans-serif;
+  }
+}
+
+@each $name, $color in $colors {
+  .color-#{$name} {
+    color: $color;
+  }
+  .bg-#{$name} {
+    background-color: $color;
+  }
+}

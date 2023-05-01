@@ -1,0 +1,12 @@
+@use '@/styles/abstracts/_index' as *;
+
+$fonts: (
+  'body': acumin-pro,
+  'heading': antarctican-headline,
+);
+
+:root {
+  @each $name, $font in $fonts {
+    --#{$name}-font: #{$font};
+  }
+}

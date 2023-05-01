@@ -1,0 +1,14 @@
+@use '@/styles/abstracts/_index' as *;
+@use '@/styles/base/_media' as *;
+
+.scene {
+    width: auto;
+    height: 100vh;
+    position: relative;
+    width: mobile-vw(320px);
+    @include desktop {
+      width: desktop-vw(1360px);
+      height: $desktop-height;
+    }
+  }
+  

@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "company": "spotify",
+    "src": "https://res.cloudinary.com/dtwk4dm3g/image/upload/v1682913599/batman_podcast/spotify_rqesvp.svg"
+  },
+  {
+    "id": 2,
+    "company": "apple",
+    "src": "https://res.cloudinary.com/dtwk4dm3g/image/upload/v1682913599/batman_podcast/apple_vjla3l.svg"
+  },
+  {
+    "id": 3,
+    "company": "googlePlay",
+    "src": "https://res.cloudinary.com/dtwk4dm3g/image/upload/v1682913599/batman_podcast/googlePlay_qylm9z.svg"
+  },
+  {
+    "id": 4,
+    "company": "deezer",
+    "src": "https://res.cloudinary.com/dtwk4dm3g/image/upload/v1682913599/batman_podcast/deezer_fq3647.svg"
+  },
+  {
+    "id": 5,
+    "company": "stitcher",
+    "src": "https://res.cloudinary.com/dtwk4dm3g/image/upload/v1682913599/batman_podcast/stitcher_v4blro.svg"
+  },
+  {
+    "id": 6,
+    "company": "amazon",
+    "src": "https://res.cloudinary.com/dtwk4dm3g/image/upload/v1682913599/batman_podcast/amazon_bx5xgy.svg"
+  }
+]

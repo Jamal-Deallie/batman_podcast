@@ -1,0 +1,29 @@
+@use '@/styles/abstracts/_index' as *;
+@use '@/styles/base/_media' as *;
+
+.desc-cont {
+  @include desktop {
+    margin-left: desktop-vw(8px);
+
+    p {
+      font-size: desktop-vw(20px);
+    }
+  }
+}
+
+.input-wrap {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  border-bottom: 1px solid var(--tertiary-variant);
+  input {
+    &::placeholder {
+      color: var(--tertiary-variant);
+    }
+  }
+
+  @include desktop {
+    min-width: desktop-vw(900px);
+    margin-left: desktop-vw(8px);
+  }
+}
